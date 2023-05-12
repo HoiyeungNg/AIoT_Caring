@@ -1,11 +1,11 @@
 # Instructions for deploying and running: 
 
 ## For Moto 360:
-Open developer mode\n
-Choose debug with wifi\n
-adb connect the ip like "192.168.43.20" on laptop/ or use the virtual emulator
-Change network permission in res/xml/network_security_config for laptop local server ip like "192.168.43.156"
-Change the url in "HeartRateActivity" like "http://192.168.43.156:8000/mycare/heart_rate"
+Open developer mode. 
+Choose debug with wifi. 
+adb connect the ip like "192.168.43.20" on laptop/ or use the virtual emulator. 
+Change network permission in res/xml/network_security_config for laptop local server ip like "192.168.43.156". 
+Change the url in "HeartRateActivity" like "http://192.168.43.156:8000/mycare/heart_rate". 
 Choose the watch and run the "wear" in android studio
 "MyThirdAPP" will be installed 
 Choose "demo heart rate sensor" in the app
