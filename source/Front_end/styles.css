@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #container {
+    display: flex;
+  }
+  
+  #main {
+    margin: 20px auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #sensor-data {
+    margin: 20px auto;
+  }
+
+  #heart-rate-data {
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  #status-indicator {
+    padding: 10px;
+    border: 1px solid black;
+    display: inline-block;
+  }
+  
+  .alert {
+    color: red;
+  }
+  @keyframes changeColor {
+    from { background-color: white; }
+    to { background-color: red; }
+  }
+  
+  .high-temperature {
+    animation-name: changeColor;
+    animation-duration: 2s;
+  }
