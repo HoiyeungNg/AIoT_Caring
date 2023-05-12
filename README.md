@@ -1,19 +1,19 @@
 # Instructions for deploying and running: 
 
 ## For Moto 360:
-open developer mode
-choose debug with wifi
+Open developer mode\n
+Choose debug with wifi\n
 adb connect the ip like "192.168.43.20" on laptop/ or use the virtual emulator
-change network permission in res/xml/network_security_config for laptop local server ip like "192.168.43.156"
-change the url in "HeartRateActivity" like "http://192.168.43.156:8000/mycare/heart_rate"
-choose the watch and run the "wear" in android studio
+Change network permission in res/xml/network_security_config for laptop local server ip like "192.168.43.156"
+Change the url in "HeartRateActivity" like "http://192.168.43.156:8000/mycare/heart_rate"
+Choose the watch and run the "wear" in android studio
 "MyThirdAPP" will be installed 
-choose "demo heart rate sensor" in the app
+Choose "demo heart rate sensor" in the app
 
 ## For microbit:
-change the base url in rhub.py like 'http://192.168.43.156:8000/'
-link one microbit to laptop
-change the serial port listening on the laptop
+Change the base url in rhub.py like 'http://192.168.43.156:8000/'
+Link one microbit to laptop
+Change the serial port listening on the laptop
 and run rhub.py
 
 ## For backend:
