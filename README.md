@@ -1,4 +1,4 @@
-# Instructions for deploying and running the prototype: 
+# Instructions for deploying and running: 
 
 ## For Moto 360:
 open developer mode
