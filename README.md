@@ -1,5 +1,4 @@
-# AIoT_Caring
-Detailed instructions for deploying and running the prototype: 
+# Detailed instructions for deploying and running the prototype: 
 
 ## For Moto 360:
 open developer mode
