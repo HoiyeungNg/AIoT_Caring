@@ -1,7 +1,7 @@
 # AIoT_Caring
 Detailed instructions for deploying and running the prototype: 
 
-For Moto 360:
+## For Moto 360:
 open developer mode
 choose debug with wifi
 adb connect the ip like "192.168.43.20" on laptop/ or use the virtual emulator
@@ -11,13 +11,13 @@ choose the watch and run the "wear" in android studio
 "MyThirdAPP" will be installed 
 choose "demo heart rate sensor" in the app
 
-For microbit:
+## For microbit:
 change the base url in rhub.py like 'http://192.168.43.156:8000/'
 link one microbit to laptop
 change the serial port listening on the laptop
 and run rhub.py
 
-For backend:
+## For backend:
 Our database is deployed in the cloud, so there's no need to recreate it locally. However, access to the database is restricted to authorized IP addresses. To obtain access, please follow these steps:
 1. Use this website http://ip4.me/ to obtain an IP address in the correct format.
 2. Send us the address obtained in step one, and we will manually authorize it for access to the database in the cloud.
@@ -30,18 +30,18 @@ $ pip install djangorestframework==3.11.2
 $ #start backend service
 python manage.py runserver
 
-For front-end:
+## For front-end:
 Just open the .html file in Chrome.
 
-For Raspberry Pi:
-# install
+## For Raspberry Pi:
+ install
 $ pip install numpy joblib shutil matplotlib
 $ pip install tflite-runtime
 $ pip install tflite_support 
 $ pip install opencv-python opencv-contrib-python
-# change the base url in ./source/fall_detection/web_service.py like 'http://192.168.43.156:8000/'
-# start camera and alert prediction
+ change the base url in ./source/fall_detection/web_service.py like 'http://192.168.43.156:8000/'
+ start camera and alert prediction
 $ python ./source/fall_detection/tflite_realtime.py
-# Jupyter notebooks can be run on a laptop with opencv installed.
-# They and are for Section 3 Prototype Description in the report. 
-# They are not necessary to deploy the prototype. 
+ Jupyter notebooks can be run on a laptop with opencv installed.
+ They and are for Section 3 Prototype Description in the report. 
+ They are not necessary to deploy the prototype. 
